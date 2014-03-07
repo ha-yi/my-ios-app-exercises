@@ -1,0 +1,74 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		BE9AFCFC18B216150054B07E /* Coba.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coba.h; sourceTree = "<group>"; };
+		BE9AFCFD18B216150054B07E /* Coba.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coba.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		BE9AFCF518B2159A0054B07E = {
+			isa = PBXGroup;
+			children = (
+				BE9AFCFC18B216150054B07E /* Coba.h */,
+				BE9AFCFD18B216150054B07E /* Coba.m */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		BE9AFCF618B2159A0054B07E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = BE9AFCF918B2159A0054B07E /* Build configuration list for PBXProject "Blank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE9AFCF518B2159A0054B07E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		BE9AFCFA18B2159B0054B07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		BE9AFCFB18B2159B0054B07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE9AFCF918B2159A0054B07E /* Build configuration list for PBXProject "Blank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9AFCFA18B2159B0054B07E /* Debug */,
+				BE9AFCFB18B2159B0054B07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE9AFCF618B2159A0054B07E /* Project object */;
+}

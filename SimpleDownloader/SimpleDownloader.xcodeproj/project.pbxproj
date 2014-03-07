@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE9D78FC18B5BB18008B148C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9D78FB18B5BB18008B148C /* Foundation.framework */; };
+		BE9D78FE18B5BB18008B148C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9D78FD18B5BB18008B148C /* CoreGraphics.framework */; };
+		BE9D790018B5BB18008B148C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9D78FF18B5BB18008B148C /* UIKit.framework */; };
+		BE9D790218B5BB18008B148C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9D790118B5BB18008B148C /* CoreData.framework */; };
+		BE9D790818B5BB18008B148C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE9D790618B5BB18008B148C /* InfoPlist.strings */; };
+		BE9D790A18B5BB18008B148C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9D790918B5BB18008B148C /* main.m */; };
+		BE9D790E18B5BB18008B148C /* TeQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9D790D18B5BB18008B148C /* TeQAppDelegate.m */; };
+		BE9D791118B5BB18008B148C /* SimpleDownloader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE9D790F18B5BB18008B148C /* SimpleDownloader.xcdatamodeld */; };
+		BE9D791318B5BB18008B148C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9D791218B5BB18008B148C /* Images.xcassets */; };
+		BE9D791A18B5BB18008B148C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9D791918B5BB18008B148C /* XCTest.framework */; };
+		BE9D791B18B5BB18008B148C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9D78FB18B5BB18008B148C /* Foundation.framework */; };
+		BE9D791C18B5BB18008B148C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9D78FF18B5BB18008B148C /* UIKit.framework */; };
+		BE9D791D18B5BB18008B148C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9D790118B5BB18008B148C /* CoreData.framework */; };
+		BE9D792518B5BB18008B148C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE9D792318B5BB18008B148C /* InfoPlist.strings */; };
+		BE9D792718B5BB18008B148C /* SimpleDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9D792618B5BB18008B148C /* SimpleDownloaderTests.m */; };
+		BE9D793418B5BB4F008B148C /* TeQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9D793218B5BB4F008B148C /* TeQMainViewController.m */; };
+		BE9D793518B5BB4F008B148C /* TeQMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9D793318B5BB4F008B148C /* TeQMainViewController.xib */; };
+		BE9D793B18B5C3A6008B148C /* TeQDlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9D793A18B5C3A6008B148C /* TeQDlCell.m */; };
+		BE9D793F18B5C3D6008B148C /* DlCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9D793E18B5C3D6008B148C /* DlCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE9D791E18B5BB18008B148C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE9D78F018B5BB18008B148C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE9D78F718B5BB18008B148C;
+			remoteInfo = SimpleDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE9D78F818B5BB18008B148C /* SimpleDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9D78FB18B5BB18008B148C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE9D78FD18B5BB18008B148C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE9D78FF18B5BB18008B148C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE9D790118B5BB18008B148C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BE9D790518B5BB18008B148C /* SimpleDownloader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleDownloader-Info.plist"; sourceTree = "<group>"; };
+		BE9D790718B5BB18008B148C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE9D790918B5BB18008B148C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE9D790B18B5BB18008B148C /* SimpleDownloader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleDownloader-Prefix.pch"; sourceTree = "<group>"; };
+		BE9D790C18B5BB18008B148C /* TeQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeQAppDelegate.h; sourceTree = "<group>"; };
+		BE9D790D18B5BB18008B148C /* TeQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeQAppDelegate.m; sourceTree = "<group>"; };
+		BE9D791018B5BB18008B148C /* SimpleDownloader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleDownloader.xcdatamodel; sourceTree = "<group>"; };
+		BE9D791218B5BB18008B148C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE9D791818B5BB18008B148C /* SimpleDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9D791918B5BB18008B148C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BE9D792218B5BB18008B148C /* SimpleDownloaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleDownloaderTests-Info.plist"; sourceTree = "<group>"; };
+		BE9D792418B5BB18008B148C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE9D792618B5BB18008B148C /* SimpleDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleDownloaderTests.m; sourceTree = "<group>"; };
+		BE9D793118B5BB4F008B148C /* TeQMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeQMainViewController.h; sourceTree = "<group>"; };
+		BE9D793218B5BB4F008B148C /* TeQMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeQMainViewController.m; sourceTree = "<group>"; };
+		BE9D793318B5BB4F008B148C /* TeQMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeQMainViewController.xib; sourceTree = "<group>"; };
+		BE9D793918B5C3A6008B148C /* TeQDlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeQDlCell.h; sourceTree = "<group>"; };
+		BE9D793A18B5C3A6008B148C /* TeQDlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeQDlCell.m; sourceTree = "<group>"; };
+		BE9D793E18B5C3D6008B148C /* DlCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DlCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE9D78F518B5BB18008B148C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9D78FE18B5BB18008B148C /* CoreGraphics.framework in Frameworks */,
+				BE9D790218B5BB18008B148C /* CoreData.framework in Frameworks */,
+				BE9D790018B5BB18008B148C /* UIKit.framework in Frameworks */,
+				BE9D78FC18B5BB18008B148C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9D791518B5BB18008B148C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9D791A18B5BB18008B148C /* XCTest.framework in Frameworks */,
+				BE9D791D18B5BB18008B148C /* CoreData.framework in Frameworks */,
+				BE9D791C18B5BB18008B148C /* UIKit.framework in Frameworks */,
+				BE9D791B18B5BB18008B148C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE9D78EF18B5BB18008B148C = {
+			isa = PBXGroup;
+			children = (
+				BE9D790318B5BB18008B148C /* SimpleDownloader */,
+				BE9D792018B5BB18008B148C /* SimpleDownloaderTests */,
+				BE9D78FA18B5BB18008B148C /* Frameworks */,
+				BE9D78F918B5BB18008B148C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE9D78F918B5BB18008B148C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE9D78F818B5BB18008B148C /* SimpleDownloader.app */,
+				BE9D791818B5BB18008B148C /* SimpleDownloaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE9D78FA18B5BB18008B148C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE9D78FB18B5BB18008B148C /* Foundation.framework */,
+				BE9D78FD18B5BB18008B148C /* CoreGraphics.framework */,
+				BE9D78FF18B5BB18008B148C /* UIKit.framework */,
+				BE9D790118B5BB18008B148C /* CoreData.framework */,
+				BE9D791918B5BB18008B148C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE9D790318B5BB18008B148C /* SimpleDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				BE9D793018B5BB22008B148C /* vc */,
+				BE9D790C18B5BB18008B148C /* TeQAppDelegate.h */,
+				BE9D790D18B5BB18008B148C /* TeQAppDelegate.m */,
+				BE9D791218B5BB18008B148C /* Images.xcassets */,
+				BE9D790F18B5BB18008B148C /* SimpleDownloader.xcdatamodeld */,
+				BE9D790418B5BB18008B148C /* Supporting Files */,
+			);
+			path = SimpleDownloader;
+			sourceTree = "<group>";
+		};
+		BE9D790418B5BB18008B148C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE9D790518B5BB18008B148C /* SimpleDownloader-Info.plist */,
+				BE9D790618B5BB18008B148C /* InfoPlist.strings */,
+				BE9D790918B5BB18008B148C /* main.m */,
+				BE9D790B18B5BB18008B148C /* SimpleDownloader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE9D792018B5BB18008B148C /* SimpleDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE9D792618B5BB18008B148C /* SimpleDownloaderTests.m */,
+				BE9D792118B5BB18008B148C /* Supporting Files */,
+			);
+			path = SimpleDownloaderTests;
+			sourceTree = "<group>";
+		};
+		BE9D792118B5BB18008B148C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE9D792218B5BB18008B148C /* SimpleDownloaderTests-Info.plist */,
+				BE9D792318B5BB18008B148C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE9D793018B5BB22008B148C /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				BE9D793118B5BB4F008B148C /* TeQMainViewController.h */,
+				BE9D793218B5BB4F008B148C /* TeQMainViewController.m */,
+				BE9D793318B5BB4F008B148C /* TeQMainViewController.xib */,
+				BE9D793918B5C3A6008B148C /* TeQDlCell.h */,
+				BE9D793A18B5C3A6008B148C /* TeQDlCell.m */,
+				BE9D793E18B5C3D6008B148C /* DlCell.xib */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE9D78F718B5BB18008B148C /* SimpleDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9D792A18B5BB18008B148C /* Build configuration list for PBXNativeTarget "SimpleDownloader" */;
+			buildPhases = (
+				BE9D78F418B5BB18008B148C /* Sources */,
+				BE9D78F518B5BB18008B148C /* Frameworks */,
+				BE9D78F618B5BB18008B148C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleDownloader;
+			productName = SimpleDownloader;
+			productReference = BE9D78F818B5BB18008B148C /* SimpleDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE9D791718B5BB18008B148C /* SimpleDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9D792D18B5BB18008B148C /* Build configuration list for PBXNativeTarget "SimpleDownloaderTests" */;
+			buildPhases = (
+				BE9D791418B5BB18008B148C /* Sources */,
+				BE9D791518B5BB18008B148C /* Frameworks */,
+				BE9D791618B5BB18008B148C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE9D791F18B5BB18008B148C /* PBXTargetDependency */,
+			);
+			name = SimpleDownloaderTests;
+			productName = SimpleDownloaderTests;
+			productReference = BE9D791818B5BB18008B148C /* SimpleDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE9D78F018B5BB18008B148C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TeQ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = TQ;
+				TargetAttributes = {
+					BE9D791718B5BB18008B148C = {
+						TestTargetID = BE9D78F718B5BB18008B148C;
+					};
+				};
+			};
+			buildConfigurationList = BE9D78F318B5BB18008B148C /* Build configuration list for PBXProject "SimpleDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE9D78EF18B5BB18008B148C;
+			productRefGroup = BE9D78F918B5BB18008B148C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE9D78F718B5BB18008B148C /* SimpleDownloader */,
+				BE9D791718B5BB18008B148C /* SimpleDownloaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE9D78F618B5BB18008B148C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9D790818B5BB18008B148C /* InfoPlist.strings in Resources */,
+				BE9D791318B5BB18008B148C /* Images.xcassets in Resources */,
+				BE9D793518B5BB4F008B148C /* TeQMainViewController.xib in Resources */,
+				BE9D793F18B5C3D6008B148C /* DlCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9D791618B5BB18008B148C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9D792518B5BB18008B148C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE9D78F418B5BB18008B148C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9D793B18B5C3A6008B148C /* TeQDlCell.m in Sources */,
+				BE9D793418B5BB4F008B148C /* TeQMainViewController.m in Sources */,
+				BE9D791118B5BB18008B148C /* SimpleDownloader.xcdatamodeld in Sources */,
+				BE9D790A18B5BB18008B148C /* main.m in Sources */,
+				BE9D790E18B5BB18008B148C /* TeQAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9D791418B5BB18008B148C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9D792718B5BB18008B148C /* SimpleDownloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE9D791F18B5BB18008B148C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE9D78F718B5BB18008B148C /* SimpleDownloader */;
+			targetProxy = BE9D791E18B5BB18008B148C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE9D790618B5BB18008B148C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE9D790718B5BB18008B148C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE9D792318B5BB18008B148C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE9D792418B5BB18008B148C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE9D792818B5BB18008B148C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE9D792918B5BB18008B148C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE9D792B18B5BB18008B148C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleDownloader/SimpleDownloader-Prefix.pch";
+				INFOPLIST_FILE = "SimpleDownloader/SimpleDownloader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE9D792C18B5BB18008B148C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleDownloader/SimpleDownloader-Prefix.pch";
+				INFOPLIST_FILE = "SimpleDownloader/SimpleDownloader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BE9D792E18B5BB18008B148C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleDownloader.app/SimpleDownloader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleDownloader/SimpleDownloader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleDownloaderTests/SimpleDownloaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BE9D792F18B5BB18008B148C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleDownloader.app/SimpleDownloader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleDownloader/SimpleDownloader-Prefix.pch";
+				INFOPLIST_FILE = "SimpleDownloaderTests/SimpleDownloaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE9D78F318B5BB18008B148C /* Build configuration list for PBXProject "SimpleDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9D792818B5BB18008B148C /* Debug */,
+				BE9D792918B5BB18008B148C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE9D792A18B5BB18008B148C /* Build configuration list for PBXNativeTarget "SimpleDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9D792B18B5BB18008B148C /* Debug */,
+				BE9D792C18B5BB18008B148C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE9D792D18B5BB18008B148C /* Build configuration list for PBXNativeTarget "SimpleDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9D792E18B5BB18008B148C /* Debug */,
+				BE9D792F18B5BB18008B148C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE9D790F18B5BB18008B148C /* SimpleDownloader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE9D791018B5BB18008B148C /* SimpleDownloader.xcdatamodel */,
+			);
+			currentVersion = BE9D791018B5BB18008B148C /* SimpleDownloader.xcdatamodel */;
+			path = SimpleDownloader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE9D78F018B5BB18008B148C /* Project object */;
+}
